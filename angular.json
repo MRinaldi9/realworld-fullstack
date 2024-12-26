@@ -52,7 +52,7 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
-              "entry": "src/server.ts"
+              "entry": "server/index.ts"
             }
           },
           "configurations": {
@@ -74,7 +74,8 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "clearScreen": true
             }
           },
           "defaultConfiguration": "production"
